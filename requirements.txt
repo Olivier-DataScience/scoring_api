@@ -4,4 +4,4 @@ joblib
 pandas
 scikit-learn
 lightgbm
-gunicorn"gunicorn" 
+gunicorn
