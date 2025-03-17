@@ -45,7 +45,7 @@ if st.button("Prédire si le client remboursera"):
     }
 
     # 🔹 Envoi de la requête POST à l'API FastAPI
-    url = "http://127.0.0.1:8000/predict"
+    url = "https://mon-api-fastapi-32b9272786a2.herokuapp.com/predict"
     response = requests.post(url, json=input_data)
     
     # 🔹 Affichage du résultat
